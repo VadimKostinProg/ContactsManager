@@ -1,0 +1,17 @@
+D:\Programming\ContactsManager\ContactsManager.Infrastructure\bin\Debug\net6.0\ContactsManager.Infrastructure.deps.json
+D:\Programming\ContactsManager\ContactsManager.Infrastructure\bin\Debug\net6.0\ContactsManager.Infrastructure.runtimeconfig.json
+D:\Programming\ContactsManager\ContactsManager.Infrastructure\bin\Debug\net6.0\ContactsManager.Infrastructure.dll
+D:\Programming\ContactsManager\ContactsManager.Infrastructure\bin\Debug\net6.0\ContactsManager.Infrastructure.pdb
+D:\Programming\ContactsManager\ContactsManager.Infrastructure\bin\Debug\net6.0\ContactsManager.Core.dll
+D:\Programming\ContactsManager\ContactsManager.Infrastructure\bin\Debug\net6.0\ContactsManager.Core.pdb
+D:\Programming\ContactsManager\ContactsManager.Infrastructure\obj\Debug\net6.0\ContactsManager.Infrastructure.csproj.AssemblyReference.cache
+D:\Programming\ContactsManager\ContactsManager.Infrastructure\obj\Debug\net6.0\ContactsManager.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\ContactsManager\ContactsManager.Infrastructure\obj\Debug\net6.0\ContactsManager.Infrastructure.AssemblyInfoInputs.cache
+D:\Programming\ContactsManager\ContactsManager.Infrastructure\obj\Debug\net6.0\ContactsManager.Infrastructure.AssemblyInfo.cs
+D:\Programming\ContactsManager\ContactsManager.Infrastructure\obj\Debug\net6.0\ContactsManager.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Programming\ContactsManager\ContactsManager.Infrastructure\obj\Debug\net6.0\ContactsManager.Infrastructure.csproj.CopyComplete
+D:\Programming\ContactsManager\ContactsManager.Infrastructure\obj\Debug\net6.0\ContactsManager.Infrastructure.dll
+D:\Programming\ContactsManager\ContactsManager.Infrastructure\obj\Debug\net6.0\refint\ContactsManager.Infrastructure.dll
+D:\Programming\ContactsManager\ContactsManager.Infrastructure\obj\Debug\net6.0\ContactsManager.Infrastructure.pdb
+D:\Programming\ContactsManager\ContactsManager.Infrastructure\obj\Debug\net6.0\ContactsManager.Infrastructure.genruntimeconfig.cache
+D:\Programming\ContactsManager\ContactsManager.Infrastructure\obj\Debug\net6.0\ref\ContactsManager.Infrastructure.dll
