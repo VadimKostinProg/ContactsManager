@@ -1,0 +1,140 @@
+﻿@model RegisterDTO
+
+@{
+    ViewBag.Title = "Register";
+}
+
+<div class="form-container">
+    <h2>Register</h2>
+    <form asp-controller="Account" asp-action="Register" method="post">
+
+        @*Person name*@
+        <div class="form-field flex">
+            <div class="w-25">
+                <label asp-for="PersonName" class="form-label">Name</label>
+            </div>
+            <div class="flex-1">
+                @if(Model == null)
+                {
+                    <input asp-for="PersonName" type="text" class="form-input" />
+                }
+                else
+                {
+                    <input asp-for="PersonName" type="text" class="form-input" value="@Model.PersonName" />
+                }
+                <span asp-validation-for="PersonName" class="text-red"></span>
+            </div>
+        </div>
+
+        @*Email*@
+        <div class="form-field flex">
+            <div class="w-25">
+                <label asp-for="Email" class="form-label">Email</label>
+            </div>
+            <div class="flex-1">
+                @if(Model == null)
+                {
+                    <input asp-for="Email" type="text" class="form-input" />
+                }
+                else
+                {
+                    <input asp-for="Email" type="text" class="form-input" value="@Model.Email" />
+                }
+                <span asp-validation-for="Email" class="text-red"></span>
+            </div>
+        </div>
+
+        @*Phone number*@
+        <div class="form-field flex">
+            <div class="w-25">
+                <label asp-for="PhoneNumber" class="form-label">Phone</label>
+            </div>
+            <div class="flex-1">
+                @if(Model == null)
+                {
+                    <input asp-for="PhoneNumber" type="text" class="form-input" />
+                }
+                else
+                {
+                    <input asp-for="PhoneNumber" type="text" class="form-input" value="@Model.PhoneNumber" />
+                }
+                <span asp-validation-for="PhoneNumber" class="text-red"></span>
+            </div>
+        </div>
+
+        @*User options*@
+        <div class="form-field flex">
+            <div class="w-25">
+                <label asp-for="Options" class="form-label">Role</label>
+            </div>
+            <div class="flex-1">
+                <input type="radio" id="Customer" asp-for="Options" value="Customer" checked />
+                <label for="Customer">Customer</label>
+
+                <input type="radio" id="Admin" asp-for="Options" value="Admin"/>
+                <label for="Admin">Admin</label>
+            </div>
+        </div>
+
+        @*Password*@
+        <div class="form-field flex">
+            <div class="w-25">
+                <label asp-for="Password" class="form-label">Password</label>
+            </div>
+            <div class="flex-1">
+                @if (Model == null)
+                {
+                    <input asp-for="Password" type="password" class="form-input" />
+                }
+                else
+                {
+                    <input asp-for="Password" type="password" class="form-input" value="@Model.Password" />
+                }
+                <span asp-validation-for="Password" class="text-red"></span>
+                @if (ViewBag.Errors != null)
+                {
+                    foreach (var error in ViewBag.Errors)
+                    {
+                        <span class="text-red">@error</span>
+                    }
+                }
+            </div>
+        </div>
+
+        @*Confirm password*@
+        <div class="form-field flex">
+            <div class="w-25">
+                <label asp-for="ConfirmPassword" class="form-label">Confirm password</label>
+            </div>
+            <div class="flex-1">
+                @if(Model == null)
+                {
+                    <input asp-for="ConfirmPassword" type="password" class="form-input" />
+                }
+                else
+                {
+                    <input asp-for="ConfirmPassword" type="password" class="form-input" value="@Model.ConfirmPassword" />
+                }
+                <span asp-validation-for="ConfirmPassword" class="text-red"></span>
+            </div>
+        </div>
+
+        <div class="flex">
+            <div class="w-25"></div>
+            <div class="flex-1">
+                <button type="submit" class="button button-green-back">Register</button>
+            </div>
+        </div>
+    </form>
+    Already have an account? <a href="~/account/login" class="link-hover">Login</a>
+</div>
+
+@section Scripts
+    {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        asp-fallback-test="window.JQuery" asp-fallback-src="~/js/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.4/jquery.validate.min.js"
+        asp-fallback-test="window.JQuery.Validate" asp-fallback-src="~/js/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.12/jquery.validate.unobtrusive.min.js"
+        asp-fallback-test="window.JQuery.Validate.Unobtrusive" asp-fallback-src="~/js/jquery.validate.unobtrusive.min.js"></script>
+}

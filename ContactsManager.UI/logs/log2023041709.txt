@@ -1,0 +1,578 @@
+2023-04-17 09:16:59.068 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Countries/UploadCountries.cshtml'.
+2023-04-17 09:16:59.126 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Person/Create.cshtml'.
+2023-04-17 09:16:59.127 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Person/Delete.cshtml'.
+2023-04-17 09:16:59.128 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Person/Edit.cshtml'.
+2023-04-17 09:16:59.129 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Person/Index.cshtml'.
+2023-04-17 09:16:59.129 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Person/PersonsPDF.cshtml'.
+2023-04-17 09:16:59.130 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_GridColumnHeader.cshtml'.
+2023-04-17 09:16:59.131 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2023-04-17 09:16:59.132 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2023-04-17 09:16:59.133 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2023-04-17 09:16:59.154 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-04-17 09:16:59.230 +03:00 [DBG] Hosting starting
+2023-04-17 09:16:59.280 +03:00 [INF] User profile is available. Using 'C:\Users\kosti\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-04-17 09:16:59.286 +03:00 [DBG] Reading data from file 'C:\Users\kosti\AppData\Local\ASP.NET\DataProtection-Keys\key-ed64a3e2-583a-44c1-95ba-7289651f80b9.xml'.
+2023-04-17 09:16:59.309 +03:00 [DBG] Found key {ed64a3e2-583a-44c1-95ba-7289651f80b9}.
+2023-04-17 09:16:59.325 +03:00 [DBG] Considering key {ed64a3e2-583a-44c1-95ba-7289651f80b9} with expiration date 2023-05-04 19:11:00Z as default key.
+2023-04-17 09:16:59.328 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-04-17 09:16:59.333 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2023-04-17 09:16:59.335 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-04-17 09:16:59.342 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-04-17 09:16:59.345 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-04-17 09:16:59.348 +03:00 [DBG] Using key {ed64a3e2-583a-44c1-95ba-7289651f80b9} as the default key.
+2023-04-17 09:16:59.349 +03:00 [DBG] Key ring with default key {ed64a3e2-583a-44c1-95ba-7289651f80b9} was loaded during application startup.
+2023-04-17 09:16:59.447 +03:00 [INF] Now listening on: http://localhost:5173
+2023-04-17 09:16:59.448 +03:00 [DBG] Loaded hosting startup assembly CRUDExample
+2023-04-17 09:16:59.449 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-04-17 09:16:59.450 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-04-17 09:16:59.452 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-17 09:16:59.452 +03:00 [INF] Hosting environment: Development
+2023-04-17 09:16:59.453 +03:00 [INF] Content root path: D:\Programming\CRUDExample\CRUDExample\
+2023-04-17 09:16:59.454 +03:00 [DBG] Hosting started
+2023-04-17 09:16:59.487 +03:00 [DBG] Connection id "0HMPV1DD4DHR8" accepted.
+2023-04-17 09:16:59.487 +03:00 [DBG] Connection id "0HMPV1DD4DHR7" accepted.
+2023-04-17 09:16:59.490 +03:00 [DBG] Connection id "0HMPV1DD4DHR7" started.
+2023-04-17 09:16:59.490 +03:00 [DBG] Connection id "0HMPV1DD4DHR8" started.
+2023-04-17 09:17:01.376 +03:00 [DBG] Connection id "0HMPV1DD4DHR9" accepted.
+2023-04-17 09:17:01.381 +03:00 [DBG] Connection id "0HMPV1DD4DHR9" started.
+2023-04-17 09:17:01.389 +03:00 [DBG] Connection id "0HMPV1DD4DHRA" accepted.
+2023-04-17 09:17:01.392 +03:00 [DBG] Connection id "0HMPV1DD4DHRA" started.
+2023-04-17 09:17:01.451 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5173/ - -
+2023-04-17 09:17:01.528 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-04-17 09:17:01.536 +03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,uk;q=0.6
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-User: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-04-17 09:17:01.542 +03:00 [DBG] The request path / does not match a supported file type
+2023-04-17 09:17:01.584 +03:00 [DBG] 1 candidate(s) found for the request path '/'
+2023-04-17 09:17:01.591 +03:00 [DBG] Endpoint 'CRUDExample.Controllers.PersonController.Index (CRUDExample)' with route pattern '' is valid for the request path '/'
+2023-04-17 09:17:01.593 +03:00 [DBG] Request matched endpoint 'CRUDExample.Controllers.PersonController.Index (CRUDExample)'
+2023-04-17 09:17:01.594 +03:00 [INF] Executing endpoint 'CRUDExample.Controllers.PersonController.Index (CRUDExample)'
+2023-04-17 09:17:01.688 +03:00 [INF] Route matched with {action = "Index", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptions) on controller CRUDExample.Controllers.PersonController (CRUDExample).
+2023-04-17 09:17:01.692 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-04-17 09:17:01.695 +03:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-04-17 09:17:01.697 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","CRUDExample.Filters.ActionFilters.PersonsListActionFilter"]
+2023-04-17 09:17:01.701 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-04-17 09:17:01.703 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-04-17 09:17:01.711 +03:00 [DBG] Executing controller factory for controller CRUDExample.Controllers.PersonController (CRUDExample)
+2023-04-17 09:17:01.927 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-04-17 09:17:01.957 +03:00 [DBG] Executed controller factory for controller CRUDExample.Controllers.PersonController (CRUDExample)
+2023-04-17 09:17:01.972 +03:00 [DBG] Attempting to bind parameter 'searchBy' of type 'System.String' ...
+2023-04-17 09:17:01.975 +03:00 [DBG] Attempting to bind parameter 'searchBy' of type 'System.String' using the name '' in request data ...
+2023-04-17 09:17:01.976 +03:00 [DBG] Could not find a value in the request with name '' for binding parameter 'searchBy' of type 'System.String'.
+2023-04-17 09:17:01.977 +03:00 [DBG] Done attempting to bind parameter 'searchBy' of type 'System.String'.
+2023-04-17 09:17:01.979 +03:00 [DBG] Done attempting to bind parameter 'searchBy' of type 'System.String'.
+2023-04-17 09:17:01.980 +03:00 [DBG] Attempting to validate the bound parameter 'searchBy' of type 'System.String' ...
+2023-04-17 09:17:01.988 +03:00 [DBG] Done attempting to validate the bound parameter 'searchBy' of type 'System.String'.
+2023-04-17 09:17:01.991 +03:00 [DBG] Attempting to bind parameter 'searchString' of type 'System.String' ...
+2023-04-17 09:17:01.992 +03:00 [DBG] Attempting to bind parameter 'searchString' of type 'System.String' using the name '' in request data ...
+2023-04-17 09:17:01.993 +03:00 [DBG] Could not find a value in the request with name '' for binding parameter 'searchString' of type 'System.String'.
+2023-04-17 09:17:01.994 +03:00 [DBG] Done attempting to bind parameter 'searchString' of type 'System.String'.
+2023-04-17 09:17:01.997 +03:00 [DBG] Done attempting to bind parameter 'searchString' of type 'System.String'.
+2023-04-17 09:17:01.998 +03:00 [DBG] Attempting to validate the bound parameter 'searchString' of type 'System.String' ...
+2023-04-17 09:17:01.999 +03:00 [DBG] Done attempting to validate the bound parameter 'searchString' of type 'System.String'.
+2023-04-17 09:17:02.001 +03:00 [DBG] Attempting to bind parameter 'gender' of type 'System.String' ...
+2023-04-17 09:17:02.001 +03:00 [DBG] Attempting to bind parameter 'gender' of type 'System.String' using the name '' in request data ...
+2023-04-17 09:17:02.002 +03:00 [DBG] Could not find a value in the request with name '' for binding parameter 'gender' of type 'System.String'.
+2023-04-17 09:17:02.004 +03:00 [DBG] Done attempting to bind parameter 'gender' of type 'System.String'.
+2023-04-17 09:17:02.005 +03:00 [DBG] Done attempting to bind parameter 'gender' of type 'System.String'.
+2023-04-17 09:17:02.005 +03:00 [DBG] Attempting to validate the bound parameter 'gender' of type 'System.String' ...
+2023-04-17 09:17:02.007 +03:00 [DBG] Done attempting to validate the bound parameter 'gender' of type 'System.String'.
+2023-04-17 09:17:02.008 +03:00 [DBG] Attempting to bind parameter 'sortBy' of type 'System.String' ...
+2023-04-17 09:17:02.009 +03:00 [DBG] Attempting to bind parameter 'sortBy' of type 'System.String' using the name '' in request data ...
+2023-04-17 09:17:02.010 +03:00 [DBG] Could not find a value in the request with name '' for binding parameter 'sortBy' of type 'System.String'.
+2023-04-17 09:17:02.012 +03:00 [DBG] Done attempting to bind parameter 'sortBy' of type 'System.String'.
+2023-04-17 09:17:02.013 +03:00 [DBG] Done attempting to bind parameter 'sortBy' of type 'System.String'.
+2023-04-17 09:17:02.013 +03:00 [DBG] Attempting to validate the bound parameter 'sortBy' of type 'System.String' ...
+2023-04-17 09:17:02.015 +03:00 [DBG] Done attempting to validate the bound parameter 'sortBy' of type 'System.String'.
+2023-04-17 09:17:02.016 +03:00 [DBG] Attempting to bind parameter 'sortOrder' of type 'ServiceContracts.Enums.SortOrderOptions' ...
+2023-04-17 09:17:02.017 +03:00 [DBG] Attempting to bind parameter 'sortOrder' of type 'ServiceContracts.Enums.SortOrderOptions' using the name '' in request data ...
+2023-04-17 09:17:02.018 +03:00 [DBG] Could not find a value in the request with name '' for binding parameter 'sortOrder' of type 'ServiceContracts.Enums.SortOrderOptions'.
+2023-04-17 09:17:02.019 +03:00 [DBG] Done attempting to bind parameter 'sortOrder' of type 'ServiceContracts.Enums.SortOrderOptions'.
+2023-04-17 09:17:02.020 +03:00 [DBG] Done attempting to bind parameter 'sortOrder' of type 'ServiceContracts.Enums.SortOrderOptions'.
+2023-04-17 09:17:02.021 +03:00 [DBG] Attempting to validate the bound parameter 'sortOrder' of type 'ServiceContracts.Enums.SortOrderOptions' ...
+2023-04-17 09:17:02.023 +03:00 [DBG] Done attempting to validate the bound parameter 'sortOrder' of type 'ServiceContracts.Enums.SortOrderOptions'.
+2023-04-17 09:17:02.025 +03:00 [INF] PersonListActionFilter executing.
+2023-04-17 09:17:02.027 +03:00 [INF] Index of PersonsController
+2023-04-17 09:17:02.029 +03:00 [DBG] searchBy: , searchString: , gender: , sortBy: Name, sortedOrder: ASC
+2023-04-17 09:17:02.030 +03:00 [INF] GetFilteredPersons of PersonsService
+2023-04-17 09:17:02.031 +03:00 [DBG] searchBy: , searchString: , gender: 
+2023-04-17 09:17:02.032 +03:00 [INF] GetAllPersons of PersonsService
+2023-04-17 09:17:02.823 +03:00 [DBG] Entity Framework Core 7.0.4 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.4' with options: None
+2023-04-17 09:17:02.911 +03:00 [DBG] Compiling query expression: 
+'DbSet<Person>()
+    .Include("Country")
+    .Select(person => person)'
+2023-04-17 09:17:03.020 +03:00 [DBG] Including navigation: 'Person.Country'.
+2023-04-17 09:17:03.230 +03:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Person>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Client Projections:
+            0 -> Dictionary<IProperty, int> { [Property: Person.PersonID (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Person.Address (string) MaxLength(200), 1], [Property: Person.CountryID (Guid?) FK Index, 2], [Property: Person.DateOfBirth (DateTime?), 3], [Property: Person.Email (string) MaxLength(40), 4], [Property: Person.Gender (string) MaxLength(10), 5], [Property: Person.Name (string) MaxLength(40), 6], [Property: Person.ReceiveNewsLetters (bool) Required, 7] }
+            1 -> Dictionary<IProperty, int> { [Property: Country.CountryID (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 8], [Property: Country.CountryName (string), 9] }
+        SELECT p.PersonID, p.Address, p.CountryID, p.DateOfBirth, p.Email, p.Gender, p.Name, p.ReceiveNewsLetters, c.CountryID, c.CountryName
+        FROM Persons AS p
+        LEFT JOIN Countries AS c ON p.CountryID == c.CountryID), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Person>, 
+    Entities.ApplicationContext, 
+    False, 
+    False, 
+    True
+)'
+2023-04-17 09:17:03.268 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-04-17 09:17:03.271 +03:00 [DBG] Creating DbConnection.
+2023-04-17 09:17:03.309 +03:00 [DBG] Created DbConnection. (34ms).
+2023-04-17 09:17:03.318 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (48ms).
+2023-04-17 09:17:03.321 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (54ms).
+2023-04-17 09:17:03.326 +03:00 [DBG] Opening connection to database 'PersonsDB' on server '(localdb)\MSSQLLocalDB'.
+2023-04-17 09:17:04.652 +03:00 [DBG] Opened connection to database 'PersonsDB' on server '(localdb)\MSSQLLocalDB'.
+2023-04-17 09:17:04.664 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PersonID], [p].[Address], [p].[CountryID], [p].[DateOfBirth], [p].[Email], [p].[Gender], [p].[Name], [p].[ReceiveNewsLetters], [c].[CountryID], [c].[CountryName]
+FROM [Persons] AS [p]
+LEFT JOIN [Countries] AS [c] ON [p].[CountryID] = [c].[CountryID]
+2023-04-17 09:17:04.709 +03:00 [INF] Executed DbCommand (47ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PersonID], [p].[Address], [p].[CountryID], [p].[DateOfBirth], [p].[Email], [p].[Gender], [p].[Name], [p].[ReceiveNewsLetters], [c].[CountryID], [c].[CountryName]
+FROM [Persons] AS [p]
+LEFT JOIN [Countries] AS [c] ON [p].[CountryID] = [c].[CountryID]
+2023-04-17 09:17:04.752 +03:00 [DBG] Context 'ApplicationContext' started tracking 'Person' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-04-17 09:17:04.808 +03:00 [DBG] The navigation 'Person.Country' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-04-17 09:17:04.812 +03:00 [DBG] Context 'ApplicationContext' started tracking 'Country' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-04-17 09:17:04.819 +03:00 [DBG] Context 'ApplicationContext' started tracking 'Person' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-04-17 09:17:04.822 +03:00 [DBG] Context 'ApplicationContext' started tracking 'Person' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-04-17 09:17:04.823 +03:00 [DBG] Context 'ApplicationContext' started tracking 'Person' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-04-17 09:17:04.831 +03:00 [DBG] Closing data reader to 'PersonsDB' on server '(localdb)\MSSQLLocalDB'.
+2023-04-17 09:17:04.843 +03:00 [DBG] A data reader for 'PersonsDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 123ms reading results.
+2023-04-17 09:17:04.848 +03:00 [DBG] Closing connection to database 'PersonsDB' on server '(localdb)\MSSQLLocalDB'.
+2023-04-17 09:17:04.861 +03:00 [DBG] Closed connection to database 'PersonsDB' on server '(localdb)\MSSQLLocalDB' (13ms).
+2023-04-17 09:17:04.863 +03:00 [INF] GetSortedPersons of PersonsService
+2023-04-17 09:17:04.864 +03:00 [DBG] sortBy: Name, sortOrder: ASC
+2023-04-17 09:17:04.878 +03:00 [INF] PersonListActionFilter executed.
+2023-04-17 09:17:58.894 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Countries/UploadCountries.cshtml'.
+2023-04-17 09:17:58.959 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Person/Create.cshtml'.
+2023-04-17 09:17:58.960 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Person/Delete.cshtml'.
+2023-04-17 09:17:58.961 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Person/Edit.cshtml'.
+2023-04-17 09:17:58.962 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Person/Index.cshtml'.
+2023-04-17 09:17:58.963 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Person/PersonsPDF.cshtml'.
+2023-04-17 09:17:58.963 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_GridColumnHeader.cshtml'.
+2023-04-17 09:17:58.964 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2023-04-17 09:17:58.965 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2023-04-17 09:17:58.966 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2023-04-17 09:17:58.990 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-04-17 09:17:59.060 +03:00 [DBG] Hosting starting
+2023-04-17 09:17:59.097 +03:00 [INF] User profile is available. Using 'C:\Users\kosti\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-04-17 09:17:59.102 +03:00 [DBG] Reading data from file 'C:\Users\kosti\AppData\Local\ASP.NET\DataProtection-Keys\key-ed64a3e2-583a-44c1-95ba-7289651f80b9.xml'.
+2023-04-17 09:17:59.114 +03:00 [DBG] Found key {ed64a3e2-583a-44c1-95ba-7289651f80b9}.
+2023-04-17 09:17:59.128 +03:00 [DBG] Considering key {ed64a3e2-583a-44c1-95ba-7289651f80b9} with expiration date 2023-05-04 19:11:00Z as default key.
+2023-04-17 09:17:59.132 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-04-17 09:17:59.137 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2023-04-17 09:17:59.139 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-04-17 09:17:59.145 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-04-17 09:17:59.149 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-04-17 09:17:59.153 +03:00 [DBG] Using key {ed64a3e2-583a-44c1-95ba-7289651f80b9} as the default key.
+2023-04-17 09:17:59.155 +03:00 [DBG] Key ring with default key {ed64a3e2-583a-44c1-95ba-7289651f80b9} was loaded during application startup.
+2023-04-17 09:17:59.236 +03:00 [INF] Now listening on: http://localhost:5173
+2023-04-17 09:17:59.238 +03:00 [DBG] Loaded hosting startup assembly CRUDExample
+2023-04-17 09:17:59.239 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-04-17 09:17:59.240 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-04-17 09:17:59.241 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-17 09:17:59.242 +03:00 [INF] Hosting environment: Development
+2023-04-17 09:17:59.243 +03:00 [INF] Content root path: D:\Programming\CRUDExample\CRUDExample\
+2023-04-17 09:17:59.244 +03:00 [DBG] Hosting started
+2023-04-17 09:17:59.704 +03:00 [DBG] Connection id "0HMPV1DV2MK6O" accepted.
+2023-04-17 09:17:59.706 +03:00 [DBG] Connection id "0HMPV1DV2MK6O" started.
+2023-04-17 09:17:59.707 +03:00 [DBG] Connection id "0HMPV1DV2MK6P" accepted.
+2023-04-17 09:17:59.708 +03:00 [DBG] Connection id "0HMPV1DV2MK6P" started.
+2023-04-17 09:17:59.729 +03:00 [DBG] Connection id "0HMPV1DV2MK6O" received FIN.
+2023-04-17 09:17:59.729 +03:00 [DBG] Connection id "0HMPV1DV2MK6P" received FIN.
+2023-04-17 09:17:59.740 +03:00 [DBG] Connection id "0HMPV1DV2MK6P" sending FIN because: "The client closed the connection."
+2023-04-17 09:17:59.739 +03:00 [DBG] Connection id "0HMPV1DV2MK6O" sending FIN because: "The client closed the connection."
+2023-04-17 09:17:59.744 +03:00 [DBG] Connection id "0HMPV1DV2MK6P" disconnecting.
+2023-04-17 09:17:59.745 +03:00 [DBG] Connection id "0HMPV1DV2MK6O" disconnecting.
+2023-04-17 09:17:59.748 +03:00 [DBG] Connection id "0HMPV1DV2MK6O" stopped.
+2023-04-17 09:17:59.748 +03:00 [DBG] Connection id "0HMPV1DV2MK6P" stopped.
+2023-04-17 09:18:00.231 +03:00 [DBG] Connection id "0HMPV1DV2MK6Q" accepted.
+2023-04-17 09:18:00.234 +03:00 [DBG] Connection id "0HMPV1DV2MK6Q" started.
+2023-04-17 09:18:00.238 +03:00 [DBG] Connection id "0HMPV1DV2MK6R" accepted.
+2023-04-17 09:18:00.240 +03:00 [DBG] Connection id "0HMPV1DV2MK6R" started.
+2023-04-17 09:18:00.274 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5173/ - -
+2023-04-17 09:18:00.317 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-04-17 09:18:00.323 +03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,uk;q=0.6
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-User: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-04-17 09:18:00.327 +03:00 [DBG] The request path / does not match a supported file type
+2023-04-17 09:18:00.355 +03:00 [DBG] 1 candidate(s) found for the request path '/'
+2023-04-17 09:18:00.361 +03:00 [DBG] Endpoint 'CRUDExample.Controllers.PersonController.Index (CRUDExample)' with route pattern '' is valid for the request path '/'
+2023-04-17 09:18:00.362 +03:00 [DBG] Request matched endpoint 'CRUDExample.Controllers.PersonController.Index (CRUDExample)'
+2023-04-17 09:18:00.364 +03:00 [INF] Executing endpoint 'CRUDExample.Controllers.PersonController.Index (CRUDExample)'
+2023-04-17 09:18:00.422 +03:00 [INF] Route matched with {action = "Index", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptions) on controller CRUDExample.Controllers.PersonController (CRUDExample).
+2023-04-17 09:18:00.425 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-04-17 09:18:00.426 +03:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-04-17 09:18:00.427 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","CRUDExample.Filters.ActionFilters.PersonsListActionFilter"]
+2023-04-17 09:18:00.429 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-04-17 09:18:00.430 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-04-17 09:18:00.433 +03:00 [DBG] Executing controller factory for controller CRUDExample.Controllers.PersonController (CRUDExample)
+2023-04-17 09:18:00.584 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-04-17 09:18:00.615 +03:00 [DBG] Executed controller factory for controller CRUDExample.Controllers.PersonController (CRUDExample)
+2023-04-17 09:18:00.627 +03:00 [DBG] Attempting to bind parameter 'searchBy' of type 'System.String' ...
+2023-04-17 09:18:00.629 +03:00 [DBG] Attempting to bind parameter 'searchBy' of type 'System.String' using the name '' in request data ...
+2023-04-17 09:18:00.631 +03:00 [DBG] Could not find a value in the request with name '' for binding parameter 'searchBy' of type 'System.String'.
+2023-04-17 09:18:00.632 +03:00 [DBG] Done attempting to bind parameter 'searchBy' of type 'System.String'.
+2023-04-17 09:18:00.633 +03:00 [DBG] Done attempting to bind parameter 'searchBy' of type 'System.String'.
+2023-04-17 09:18:00.634 +03:00 [DBG] Attempting to validate the bound parameter 'searchBy' of type 'System.String' ...
+2023-04-17 09:18:00.642 +03:00 [DBG] Done attempting to validate the bound parameter 'searchBy' of type 'System.String'.
+2023-04-17 09:18:00.644 +03:00 [DBG] Attempting to bind parameter 'searchString' of type 'System.String' ...
+2023-04-17 09:18:00.645 +03:00 [DBG] Attempting to bind parameter 'searchString' of type 'System.String' using the name '' in request data ...
+2023-04-17 09:18:00.646 +03:00 [DBG] Could not find a value in the request with name '' for binding parameter 'searchString' of type 'System.String'.
+2023-04-17 09:18:00.647 +03:00 [DBG] Done attempting to bind parameter 'searchString' of type 'System.String'.
+2023-04-17 09:18:00.648 +03:00 [DBG] Done attempting to bind parameter 'searchString' of type 'System.String'.
+2023-04-17 09:18:00.649 +03:00 [DBG] Attempting to validate the bound parameter 'searchString' of type 'System.String' ...
+2023-04-17 09:18:00.650 +03:00 [DBG] Done attempting to validate the bound parameter 'searchString' of type 'System.String'.
+2023-04-17 09:18:00.652 +03:00 [DBG] Attempting to bind parameter 'gender' of type 'System.String' ...
+2023-04-17 09:18:00.653 +03:00 [DBG] Attempting to bind parameter 'gender' of type 'System.String' using the name '' in request data ...
+2023-04-17 09:18:00.654 +03:00 [DBG] Could not find a value in the request with name '' for binding parameter 'gender' of type 'System.String'.
+2023-04-17 09:18:00.655 +03:00 [DBG] Done attempting to bind parameter 'gender' of type 'System.String'.
+2023-04-17 09:18:00.656 +03:00 [DBG] Done attempting to bind parameter 'gender' of type 'System.String'.
+2023-04-17 09:18:00.657 +03:00 [DBG] Attempting to validate the bound parameter 'gender' of type 'System.String' ...
+2023-04-17 09:18:00.658 +03:00 [DBG] Done attempting to validate the bound parameter 'gender' of type 'System.String'.
+2023-04-17 09:18:00.659 +03:00 [DBG] Attempting to bind parameter 'sortBy' of type 'System.String' ...
+2023-04-17 09:18:00.660 +03:00 [DBG] Attempting to bind parameter 'sortBy' of type 'System.String' using the name '' in request data ...
+2023-04-17 09:18:00.661 +03:00 [DBG] Could not find a value in the request with name '' for binding parameter 'sortBy' of type 'System.String'.
+2023-04-17 09:18:00.662 +03:00 [DBG] Done attempting to bind parameter 'sortBy' of type 'System.String'.
+2023-04-17 09:18:00.663 +03:00 [DBG] Done attempting to bind parameter 'sortBy' of type 'System.String'.
+2023-04-17 09:18:00.664 +03:00 [DBG] Attempting to validate the bound parameter 'sortBy' of type 'System.String' ...
+2023-04-17 09:18:00.665 +03:00 [DBG] Done attempting to validate the bound parameter 'sortBy' of type 'System.String'.
+2023-04-17 09:18:00.666 +03:00 [DBG] Attempting to bind parameter 'sortOrder' of type 'ServiceContracts.Enums.SortOrderOptions' ...
+2023-04-17 09:18:00.667 +03:00 [DBG] Attempting to bind parameter 'sortOrder' of type 'ServiceContracts.Enums.SortOrderOptions' using the name '' in request data ...
+2023-04-17 09:18:00.670 +03:00 [DBG] Could not find a value in the request with name '' for binding parameter 'sortOrder' of type 'ServiceContracts.Enums.SortOrderOptions'.
+2023-04-17 09:18:00.671 +03:00 [DBG] Done attempting to bind parameter 'sortOrder' of type 'ServiceContracts.Enums.SortOrderOptions'.
+2023-04-17 09:18:00.672 +03:00 [DBG] Done attempting to bind parameter 'sortOrder' of type 'ServiceContracts.Enums.SortOrderOptions'.
+2023-04-17 09:18:00.673 +03:00 [DBG] Attempting to validate the bound parameter 'sortOrder' of type 'ServiceContracts.Enums.SortOrderOptions' ...
+2023-04-17 09:18:00.675 +03:00 [DBG] Done attempting to validate the bound parameter 'sortOrder' of type 'ServiceContracts.Enums.SortOrderOptions'.
+2023-04-17 09:18:29.426 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Countries/UploadCountries.cshtml'.
+2023-04-17 09:18:29.482 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Person/Create.cshtml'.
+2023-04-17 09:18:29.483 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Person/Delete.cshtml'.
+2023-04-17 09:18:29.484 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Person/Edit.cshtml'.
+2023-04-17 09:18:29.484 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Person/Index.cshtml'.
+2023-04-17 09:18:29.485 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Person/PersonsPDF.cshtml'.
+2023-04-17 09:18:29.486 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_GridColumnHeader.cshtml'.
+2023-04-17 09:18:29.486 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2023-04-17 09:18:29.487 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2023-04-17 09:18:29.487 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2023-04-17 09:18:29.506 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-04-17 09:18:29.585 +03:00 [DBG] Hosting starting
+2023-04-17 09:18:29.625 +03:00 [INF] User profile is available. Using 'C:\Users\kosti\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-04-17 09:18:29.631 +03:00 [DBG] Reading data from file 'C:\Users\kosti\AppData\Local\ASP.NET\DataProtection-Keys\key-ed64a3e2-583a-44c1-95ba-7289651f80b9.xml'.
+2023-04-17 09:18:29.643 +03:00 [DBG] Found key {ed64a3e2-583a-44c1-95ba-7289651f80b9}.
+2023-04-17 09:18:29.656 +03:00 [DBG] Considering key {ed64a3e2-583a-44c1-95ba-7289651f80b9} with expiration date 2023-05-04 19:11:00Z as default key.
+2023-04-17 09:18:29.660 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-04-17 09:18:29.665 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2023-04-17 09:18:29.667 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-04-17 09:18:29.673 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-04-17 09:18:29.683 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-04-17 09:18:29.688 +03:00 [DBG] Using key {ed64a3e2-583a-44c1-95ba-7289651f80b9} as the default key.
+2023-04-17 09:18:29.692 +03:00 [DBG] Key ring with default key {ed64a3e2-583a-44c1-95ba-7289651f80b9} was loaded during application startup.
+2023-04-17 09:18:29.780 +03:00 [INF] Now listening on: http://localhost:5173
+2023-04-17 09:18:29.782 +03:00 [DBG] Loaded hosting startup assembly CRUDExample
+2023-04-17 09:18:29.783 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-04-17 09:18:29.784 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-04-17 09:18:29.785 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-17 09:18:29.786 +03:00 [INF] Hosting environment: Development
+2023-04-17 09:18:29.787 +03:00 [INF] Content root path: D:\Programming\CRUDExample\CRUDExample\
+2023-04-17 09:18:29.789 +03:00 [DBG] Hosting started
+2023-04-17 09:18:30.160 +03:00 [DBG] Connection id "0HMPV1E855UOC" received FIN.
+2023-04-17 09:18:30.160 +03:00 [DBG] Connection id "0HMPV1E855UOD" received FIN.
+2023-04-17 09:18:30.175 +03:00 [DBG] Connection id "0HMPV1E855UOC" accepted.
+2023-04-17 09:18:30.175 +03:00 [DBG] Connection id "0HMPV1E855UOD" accepted.
+2023-04-17 09:18:30.177 +03:00 [DBG] Connection id "0HMPV1E855UOD" started.
+2023-04-17 09:18:30.177 +03:00 [DBG] Connection id "0HMPV1E855UOC" started.
+2023-04-17 09:18:30.186 +03:00 [DBG] Connection id "0HMPV1E855UOC" sending FIN because: "The client closed the connection."
+2023-04-17 09:18:30.186 +03:00 [DBG] Connection id "0HMPV1E855UOD" sending FIN because: "The client closed the connection."
+2023-04-17 09:18:30.191 +03:00 [DBG] Connection id "0HMPV1E855UOC" disconnecting.
+2023-04-17 09:18:30.191 +03:00 [DBG] Connection id "0HMPV1E855UOD" disconnecting.
+2023-04-17 09:18:30.201 +03:00 [DBG] Connection id "0HMPV1E855UOD" stopped.
+2023-04-17 09:18:30.201 +03:00 [DBG] Connection id "0HMPV1E855UOC" stopped.
+2023-04-17 09:18:30.625 +03:00 [DBG] Connection id "0HMPV1E855UOE" accepted.
+2023-04-17 09:18:30.627 +03:00 [DBG] Connection id "0HMPV1E855UOE" started.
+2023-04-17 09:18:30.627 +03:00 [DBG] Connection id "0HMPV1E855UOF" accepted.
+2023-04-17 09:18:30.629 +03:00 [DBG] Connection id "0HMPV1E855UOF" started.
+2023-04-17 09:18:30.661 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5173/ - -
+2023-04-17 09:18:30.708 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-04-17 09:18:30.715 +03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,uk;q=0.6
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-User: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-04-17 09:18:30.719 +03:00 [DBG] The request path / does not match a supported file type
+2023-04-17 09:18:30.748 +03:00 [DBG] 1 candidate(s) found for the request path '/'
+2023-04-17 09:18:30.754 +03:00 [DBG] Endpoint 'CRUDExample.Controllers.PersonController.Index (CRUDExample)' with route pattern '' is valid for the request path '/'
+2023-04-17 09:18:30.756 +03:00 [DBG] Request matched endpoint 'CRUDExample.Controllers.PersonController.Index (CRUDExample)'
+2023-04-17 09:18:30.757 +03:00 [INF] Executing endpoint 'CRUDExample.Controllers.PersonController.Index (CRUDExample)'
+2023-04-17 09:18:30.818 +03:00 [INF] Route matched with {action = "Index", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptions) on controller CRUDExample.Controllers.PersonController (CRUDExample).
+2023-04-17 09:18:30.821 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-04-17 09:18:30.822 +03:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-04-17 09:18:30.824 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","CRUDExample.Filters.ActionFilters.PersonsListActionFilter"]
+2023-04-17 09:18:30.827 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-04-17 09:18:30.828 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-04-17 09:18:30.830 +03:00 [DBG] Executing controller factory for controller CRUDExample.Controllers.PersonController (CRUDExample)
+2023-04-17 09:18:30.987 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-04-17 09:18:31.017 +03:00 [DBG] Executed controller factory for controller CRUDExample.Controllers.PersonController (CRUDExample)
+2023-04-17 09:18:31.028 +03:00 [DBG] Attempting to bind parameter 'searchBy' of type 'System.String' ...
+2023-04-17 09:18:31.030 +03:00 [DBG] Attempting to bind parameter 'searchBy' of type 'System.String' using the name '' in request data ...
+2023-04-17 09:18:31.033 +03:00 [DBG] Could not find a value in the request with name '' for binding parameter 'searchBy' of type 'System.String'.
+2023-04-17 09:18:31.035 +03:00 [DBG] Done attempting to bind parameter 'searchBy' of type 'System.String'.
+2023-04-17 09:18:31.036 +03:00 [DBG] Done attempting to bind parameter 'searchBy' of type 'System.String'.
+2023-04-17 09:18:31.038 +03:00 [DBG] Attempting to validate the bound parameter 'searchBy' of type 'System.String' ...
+2023-04-17 09:18:31.045 +03:00 [DBG] Done attempting to validate the bound parameter 'searchBy' of type 'System.String'.
+2023-04-17 09:18:31.048 +03:00 [DBG] Attempting to bind parameter 'searchString' of type 'System.String' ...
+2023-04-17 09:18:31.049 +03:00 [DBG] Attempting to bind parameter 'searchString' of type 'System.String' using the name '' in request data ...
+2023-04-17 09:18:31.051 +03:00 [DBG] Could not find a value in the request with name '' for binding parameter 'searchString' of type 'System.String'.
+2023-04-17 09:18:31.053 +03:00 [DBG] Done attempting to bind parameter 'searchString' of type 'System.String'.
+2023-04-17 09:18:31.054 +03:00 [DBG] Done attempting to bind parameter 'searchString' of type 'System.String'.
+2023-04-17 09:18:31.055 +03:00 [DBG] Attempting to validate the bound parameter 'searchString' of type 'System.String' ...
+2023-04-17 09:18:31.056 +03:00 [DBG] Done attempting to validate the bound parameter 'searchString' of type 'System.String'.
+2023-04-17 09:18:31.057 +03:00 [DBG] Attempting to bind parameter 'gender' of type 'System.String' ...
+2023-04-17 09:18:31.060 +03:00 [DBG] Attempting to bind parameter 'gender' of type 'System.String' using the name '' in request data ...
+2023-04-17 09:18:31.062 +03:00 [DBG] Could not find a value in the request with name '' for binding parameter 'gender' of type 'System.String'.
+2023-04-17 09:18:31.064 +03:00 [DBG] Done attempting to bind parameter 'gender' of type 'System.String'.
+2023-04-17 09:18:31.065 +03:00 [DBG] Done attempting to bind parameter 'gender' of type 'System.String'.
+2023-04-17 09:18:31.066 +03:00 [DBG] Attempting to validate the bound parameter 'gender' of type 'System.String' ...
+2023-04-17 09:18:31.068 +03:00 [DBG] Done attempting to validate the bound parameter 'gender' of type 'System.String'.
+2023-04-17 09:18:31.068 +03:00 [DBG] Attempting to bind parameter 'sortBy' of type 'System.String' ...
+2023-04-17 09:18:31.069 +03:00 [DBG] Attempting to bind parameter 'sortBy' of type 'System.String' using the name '' in request data ...
+2023-04-17 09:18:31.071 +03:00 [DBG] Could not find a value in the request with name '' for binding parameter 'sortBy' of type 'System.String'.
+2023-04-17 09:18:31.072 +03:00 [DBG] Done attempting to bind parameter 'sortBy' of type 'System.String'.
+2023-04-17 09:18:31.073 +03:00 [DBG] Done attempting to bind parameter 'sortBy' of type 'System.String'.
+2023-04-17 09:18:31.074 +03:00 [DBG] Attempting to validate the bound parameter 'sortBy' of type 'System.String' ...
+2023-04-17 09:18:31.075 +03:00 [DBG] Done attempting to validate the bound parameter 'sortBy' of type 'System.String'.
+2023-04-17 09:18:31.076 +03:00 [DBG] Attempting to bind parameter 'sortOrder' of type 'ServiceContracts.Enums.SortOrderOptions' ...
+2023-04-17 09:18:31.077 +03:00 [DBG] Attempting to bind parameter 'sortOrder' of type 'ServiceContracts.Enums.SortOrderOptions' using the name '' in request data ...
+2023-04-17 09:18:31.078 +03:00 [DBG] Could not find a value in the request with name '' for binding parameter 'sortOrder' of type 'ServiceContracts.Enums.SortOrderOptions'.
+2023-04-17 09:18:31.080 +03:00 [DBG] Done attempting to bind parameter 'sortOrder' of type 'ServiceContracts.Enums.SortOrderOptions'.
+2023-04-17 09:18:31.080 +03:00 [DBG] Done attempting to bind parameter 'sortOrder' of type 'ServiceContracts.Enums.SortOrderOptions'.
+2023-04-17 09:18:31.081 +03:00 [DBG] Attempting to validate the bound parameter 'sortOrder' of type 'ServiceContracts.Enums.SortOrderOptions' ...
+2023-04-17 09:18:31.085 +03:00 [DBG] Done attempting to validate the bound parameter 'sortOrder' of type 'ServiceContracts.Enums.SortOrderOptions'.
+2023-04-17 09:19:40.897 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Countries/UploadCountries.cshtml'.
+2023-04-17 09:19:40.954 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Person/Create.cshtml'.
+2023-04-17 09:19:40.955 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Person/Delete.cshtml'.
+2023-04-17 09:19:40.956 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Person/Edit.cshtml'.
+2023-04-17 09:19:40.957 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Person/Index.cshtml'.
+2023-04-17 09:19:40.957 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Person/PersonsPDF.cshtml'.
+2023-04-17 09:19:40.958 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_GridColumnHeader.cshtml'.
+2023-04-17 09:19:40.959 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2023-04-17 09:19:40.959 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2023-04-17 09:19:40.960 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2023-04-17 09:19:40.980 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-04-17 09:19:41.054 +03:00 [DBG] Hosting starting
+2023-04-17 09:19:41.097 +03:00 [INF] User profile is available. Using 'C:\Users\kosti\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-04-17 09:19:41.102 +03:00 [DBG] Reading data from file 'C:\Users\kosti\AppData\Local\ASP.NET\DataProtection-Keys\key-ed64a3e2-583a-44c1-95ba-7289651f80b9.xml'.
+2023-04-17 09:19:41.115 +03:00 [DBG] Found key {ed64a3e2-583a-44c1-95ba-7289651f80b9}.
+2023-04-17 09:19:41.128 +03:00 [DBG] Considering key {ed64a3e2-583a-44c1-95ba-7289651f80b9} with expiration date 2023-05-04 19:11:00Z as default key.
+2023-04-17 09:19:41.132 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-04-17 09:19:41.137 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2023-04-17 09:19:41.140 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-04-17 09:19:41.146 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-04-17 09:19:41.150 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-04-17 09:19:41.154 +03:00 [DBG] Using key {ed64a3e2-583a-44c1-95ba-7289651f80b9} as the default key.
+2023-04-17 09:19:41.155 +03:00 [DBG] Key ring with default key {ed64a3e2-583a-44c1-95ba-7289651f80b9} was loaded during application startup.
+2023-04-17 09:19:41.231 +03:00 [INF] Now listening on: http://localhost:5173
+2023-04-17 09:19:41.232 +03:00 [DBG] Loaded hosting startup assembly CRUDExample
+2023-04-17 09:19:41.233 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-04-17 09:19:41.233 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-04-17 09:19:41.234 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-17 09:19:41.235 +03:00 [INF] Hosting environment: Development
+2023-04-17 09:19:41.236 +03:00 [INF] Content root path: D:\Programming\CRUDExample\CRUDExample\
+2023-04-17 09:19:41.237 +03:00 [DBG] Hosting started
+2023-04-17 09:19:41.620 +03:00 [DBG] Connection id "0HMPV1ETELLB1" received FIN.
+2023-04-17 09:19:41.620 +03:00 [DBG] Connection id "0HMPV1ETELLB2" received FIN.
+2023-04-17 09:19:41.636 +03:00 [DBG] Connection id "0HMPV1ETELLB2" accepted.
+2023-04-17 09:19:41.636 +03:00 [DBG] Connection id "0HMPV1ETELLB1" accepted.
+2023-04-17 09:19:41.638 +03:00 [DBG] Connection id "0HMPV1ETELLB1" started.
+2023-04-17 09:19:41.638 +03:00 [DBG] Connection id "0HMPV1ETELLB2" started.
+2023-04-17 09:19:41.647 +03:00 [DBG] Connection id "0HMPV1ETELLB2" sending FIN because: "The client closed the connection."
+2023-04-17 09:19:41.647 +03:00 [DBG] Connection id "0HMPV1ETELLB1" sending FIN because: "The client closed the connection."
+2023-04-17 09:19:41.656 +03:00 [DBG] Connection id "0HMPV1ETELLB2" disconnecting.
+2023-04-17 09:19:41.667 +03:00 [DBG] Connection id "0HMPV1ETELLB1" disconnecting.
+2023-04-17 09:19:41.675 +03:00 [DBG] Connection id "0HMPV1ETELLB2" stopped.
+2023-04-17 09:19:41.675 +03:00 [DBG] Connection id "0HMPV1ETELLB1" stopped.
+2023-04-17 09:19:42.068 +03:00 [DBG] Connection id "0HMPV1ETELLB3" accepted.
+2023-04-17 09:19:42.069 +03:00 [DBG] Connection id "0HMPV1ETELLB3" started.
+2023-04-17 09:19:42.070 +03:00 [DBG] Connection id "0HMPV1ETELLB4" accepted.
+2023-04-17 09:19:42.072 +03:00 [DBG] Connection id "0HMPV1ETELLB4" started.
+2023-04-17 09:19:42.108 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5173/ - -
+2023-04-17 09:19:42.149 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-04-17 09:19:42.155 +03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,uk;q=0.6
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-User: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-04-17 09:19:42.160 +03:00 [DBG] The request path / does not match a supported file type
+2023-04-17 09:19:42.190 +03:00 [DBG] 1 candidate(s) found for the request path '/'
+2023-04-17 09:19:42.196 +03:00 [DBG] Endpoint 'CRUDExample.Controllers.PersonController.Index (CRUDExample)' with route pattern '' is valid for the request path '/'
+2023-04-17 09:19:42.198 +03:00 [DBG] Request matched endpoint 'CRUDExample.Controllers.PersonController.Index (CRUDExample)'
+2023-04-17 09:19:42.199 +03:00 [INF] Executing endpoint 'CRUDExample.Controllers.PersonController.Index (CRUDExample)'
+2023-04-17 09:19:42.257 +03:00 [INF] Route matched with {action = "Index", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptions) on controller CRUDExample.Controllers.PersonController (CRUDExample).
+2023-04-17 09:19:42.260 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-04-17 09:19:42.261 +03:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-04-17 09:19:42.264 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","CRUDExample.Filters.ActionFilters.PersonsListActionFilter"]
+2023-04-17 09:19:42.266 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-04-17 09:19:42.267 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-04-17 09:19:42.269 +03:00 [DBG] Executing controller factory for controller CRUDExample.Controllers.PersonController (CRUDExample)
+2023-04-17 09:19:42.420 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-04-17 09:19:42.449 +03:00 [DBG] Executed controller factory for controller CRUDExample.Controllers.PersonController (CRUDExample)
+2023-04-17 09:19:42.460 +03:00 [DBG] Attempting to bind parameter 'searchBy' of type 'System.String' ...
+2023-04-17 09:19:42.462 +03:00 [DBG] Attempting to bind parameter 'searchBy' of type 'System.String' using the name '' in request data ...
+2023-04-17 09:19:42.464 +03:00 [DBG] Could not find a value in the request with name '' for binding parameter 'searchBy' of type 'System.String'.
+2023-04-17 09:19:42.466 +03:00 [DBG] Done attempting to bind parameter 'searchBy' of type 'System.String'.
+2023-04-17 09:19:42.466 +03:00 [DBG] Done attempting to bind parameter 'searchBy' of type 'System.String'.
+2023-04-17 09:19:42.467 +03:00 [DBG] Attempting to validate the bound parameter 'searchBy' of type 'System.String' ...
+2023-04-17 09:19:42.474 +03:00 [DBG] Done attempting to validate the bound parameter 'searchBy' of type 'System.String'.
+2023-04-17 09:19:42.477 +03:00 [DBG] Attempting to bind parameter 'searchString' of type 'System.String' ...
+2023-04-17 09:19:42.478 +03:00 [DBG] Attempting to bind parameter 'searchString' of type 'System.String' using the name '' in request data ...
+2023-04-17 09:19:42.479 +03:00 [DBG] Could not find a value in the request with name '' for binding parameter 'searchString' of type 'System.String'.
+2023-04-17 09:19:42.481 +03:00 [DBG] Done attempting to bind parameter 'searchString' of type 'System.String'.
+2023-04-17 09:19:42.482 +03:00 [DBG] Done attempting to bind parameter 'searchString' of type 'System.String'.
+2023-04-17 09:19:42.483 +03:00 [DBG] Attempting to validate the bound parameter 'searchString' of type 'System.String' ...
+2023-04-17 09:19:42.484 +03:00 [DBG] Done attempting to validate the bound parameter 'searchString' of type 'System.String'.
+2023-04-17 09:19:42.485 +03:00 [DBG] Attempting to bind parameter 'gender' of type 'System.String' ...
+2023-04-17 09:19:42.486 +03:00 [DBG] Attempting to bind parameter 'gender' of type 'System.String' using the name '' in request data ...
+2023-04-17 09:19:42.487 +03:00 [DBG] Could not find a value in the request with name '' for binding parameter 'gender' of type 'System.String'.
+2023-04-17 09:19:42.489 +03:00 [DBG] Done attempting to bind parameter 'gender' of type 'System.String'.
+2023-04-17 09:19:42.490 +03:00 [DBG] Done attempting to bind parameter 'gender' of type 'System.String'.
+2023-04-17 09:19:42.490 +03:00 [DBG] Attempting to validate the bound parameter 'gender' of type 'System.String' ...
+2023-04-17 09:19:42.491 +03:00 [DBG] Done attempting to validate the bound parameter 'gender' of type 'System.String'.
+2023-04-17 09:19:42.492 +03:00 [DBG] Attempting to bind parameter 'sortBy' of type 'System.String' ...
+2023-04-17 09:19:42.493 +03:00 [DBG] Attempting to bind parameter 'sortBy' of type 'System.String' using the name '' in request data ...
+2023-04-17 09:19:42.495 +03:00 [DBG] Could not find a value in the request with name '' for binding parameter 'sortBy' of type 'System.String'.
+2023-04-17 09:19:42.497 +03:00 [DBG] Done attempting to bind parameter 'sortBy' of type 'System.String'.
+2023-04-17 09:19:42.498 +03:00 [DBG] Done attempting to bind parameter 'sortBy' of type 'System.String'.
+2023-04-17 09:19:42.499 +03:00 [DBG] Attempting to validate the bound parameter 'sortBy' of type 'System.String' ...
+2023-04-17 09:19:42.500 +03:00 [DBG] Done attempting to validate the bound parameter 'sortBy' of type 'System.String'.
+2023-04-17 09:19:42.501 +03:00 [DBG] Attempting to bind parameter 'sortOrder' of type 'ServiceContracts.Enums.SortOrderOptions' ...
+2023-04-17 09:19:42.502 +03:00 [DBG] Attempting to bind parameter 'sortOrder' of type 'ServiceContracts.Enums.SortOrderOptions' using the name '' in request data ...
+2023-04-17 09:19:42.504 +03:00 [DBG] Could not find a value in the request with name '' for binding parameter 'sortOrder' of type 'ServiceContracts.Enums.SortOrderOptions'.
+2023-04-17 09:19:42.505 +03:00 [DBG] Done attempting to bind parameter 'sortOrder' of type 'ServiceContracts.Enums.SortOrderOptions'.
+2023-04-17 09:19:42.506 +03:00 [DBG] Done attempting to bind parameter 'sortOrder' of type 'ServiceContracts.Enums.SortOrderOptions'.
+2023-04-17 09:19:42.507 +03:00 [DBG] Attempting to validate the bound parameter 'sortOrder' of type 'ServiceContracts.Enums.SortOrderOptions' ...
+2023-04-17 09:19:42.508 +03:00 [DBG] Done attempting to validate the bound parameter 'sortOrder' of type 'ServiceContracts.Enums.SortOrderOptions'.
+2023-04-17 09:19:53.730 +03:00 [INF] PersonListActionFilter executing.
+2023-04-17 09:19:53.733 +03:00 [INF] Index of PersonsController
+2023-04-17 09:19:53.735 +03:00 [DBG] searchBy: , searchString: , gender: , sortBy: Name, sortedOrder: ASC
+2023-04-17 09:19:53.738 +03:00 [INF] GetFilteredPersons of PersonsService
+2023-04-17 09:19:53.738 +03:00 [DBG] searchBy: , searchString: , gender: 
+2023-04-17 09:19:53.740 +03:00 [INF] GetAllPersons of PersonsService
+2023-04-17 09:19:54.750 +03:00 [DBG] Entity Framework Core 7.0.4 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.4' with options: None
+2023-04-17 09:19:54.848 +03:00 [DBG] Compiling query expression: 
+'DbSet<Person>()
+    .Include("Country")
+    .Select(person => person)'
+2023-04-17 09:19:55.000 +03:00 [DBG] Including navigation: 'Person.Country'.
+2023-04-17 09:19:55.278 +03:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Person>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Client Projections:
+            0 -> Dictionary<IProperty, int> { [Property: Person.PersonID (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Person.Address (string) MaxLength(200), 1], [Property: Person.CountryID (Guid?) FK Index, 2], [Property: Person.DateOfBirth (DateTime?), 3], [Property: Person.Email (string) MaxLength(40), 4], [Property: Person.Gender (string) MaxLength(10), 5], [Property: Person.Name (string) MaxLength(40), 6], [Property: Person.ReceiveNewsLetters (bool) Required, 7] }
+            1 -> Dictionary<IProperty, int> { [Property: Country.CountryID (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 8], [Property: Country.CountryName (string), 9] }
+        SELECT p.PersonID, p.Address, p.CountryID, p.DateOfBirth, p.Email, p.Gender, p.Name, p.ReceiveNewsLetters, c.CountryID, c.CountryName
+        FROM Persons AS p
+        LEFT JOIN Countries AS c ON p.CountryID == c.CountryID), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Person>, 
+    Entities.ApplicationContext, 
+    False, 
+    False, 
+    True
+)'
+2023-04-17 09:19:55.324 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-04-17 09:19:55.328 +03:00 [DBG] Creating DbConnection.
+2023-04-17 09:19:55.370 +03:00 [DBG] Created DbConnection. (37ms).
+2023-04-17 09:19:55.381 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (52ms).
+2023-04-17 09:19:55.385 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (61ms).
+2023-04-17 09:19:55.390 +03:00 [DBG] Opening connection to database 'PersonsDB' on server '(localdb)\MSSQLLocalDB'.
+2023-04-17 09:19:55.766 +03:00 [DBG] Opened connection to database 'PersonsDB' on server '(localdb)\MSSQLLocalDB'.
+2023-04-17 09:19:55.777 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PersonID], [p].[Address], [p].[CountryID], [p].[DateOfBirth], [p].[Email], [p].[Gender], [p].[Name], [p].[ReceiveNewsLetters], [c].[CountryID], [c].[CountryName]
+FROM [Persons] AS [p]
+LEFT JOIN [Countries] AS [c] ON [p].[CountryID] = [c].[CountryID]
+2023-04-17 09:19:55.821 +03:00 [INF] Executed DbCommand (45ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PersonID], [p].[Address], [p].[CountryID], [p].[DateOfBirth], [p].[Email], [p].[Gender], [p].[Name], [p].[ReceiveNewsLetters], [c].[CountryID], [c].[CountryName]
+FROM [Persons] AS [p]
+LEFT JOIN [Countries] AS [c] ON [p].[CountryID] = [c].[CountryID]
+2023-04-17 09:19:55.862 +03:00 [DBG] Context 'ApplicationContext' started tracking 'Person' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-04-17 09:19:55.920 +03:00 [DBG] The navigation 'Person.Country' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-04-17 09:19:55.924 +03:00 [DBG] Context 'ApplicationContext' started tracking 'Country' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-04-17 09:19:55.931 +03:00 [DBG] Context 'ApplicationContext' started tracking 'Person' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-04-17 09:19:55.934 +03:00 [DBG] Context 'ApplicationContext' started tracking 'Person' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-04-17 09:19:55.935 +03:00 [DBG] Context 'ApplicationContext' started tracking 'Person' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-04-17 09:19:55.941 +03:00 [DBG] Closing data reader to 'PersonsDB' on server '(localdb)\MSSQLLocalDB'.
+2023-04-17 09:19:55.951 +03:00 [DBG] A data reader for 'PersonsDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 121ms reading results.
+2023-04-17 09:19:55.957 +03:00 [DBG] Closing connection to database 'PersonsDB' on server '(localdb)\MSSQLLocalDB'.
+2023-04-17 09:19:55.969 +03:00 [DBG] Closed connection to database 'PersonsDB' on server '(localdb)\MSSQLLocalDB' (11ms).
+2023-04-17 09:19:55.971 +03:00 [INF] GetSortedPersons of PersonsService
+2023-04-17 09:19:55.972 +03:00 [DBG] sortBy: Name, sortOrder: ASC
+2023-04-17 09:19:55.981 +03:00 [INF] PersonListActionFilter executed.

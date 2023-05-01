@@ -1,0 +1,17 @@
+﻿<th>
+    @if (ViewBag.CurrentSortBy == ViewBag.ColumnName &&
+    ViewBag.CurrentSortOrder == "ASC")
+    {
+        <a href="~/persons/index?searchBy=@ViewBag.CurrentSearchBy&
+                    searchString=@ViewBag.CurrentSearchString&
+                    gender=@ViewBag.CurrentGender&sortBy=@ViewBag.ColumnName&
+                    sortOrder=@SortOrderOptions.DESC.ToString()">@ViewBag.DisplayName</a>
+    }
+    else
+    {
+        <a href="~/persons/index?searchBy=@ViewBag.CurrentSearchBy&
+                    searchString=@ViewBag.CurrentSearchString&
+                    gender=@ViewBag.CurrentGender&sortBy=@ViewBag.ColumnName&
+                    sortOrder=@SortOrderOptions.ASC.ToString()">@ViewBag.DisplayName</a>
+    }
+</th>
